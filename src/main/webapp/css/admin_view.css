@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.editorWrap {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.editor {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.queNum {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+.invisible {
+    display: none;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #45a049;
+}
+#deleteQuestion {
+    background-color: #f44336;
+}
+#deleteQuestion:hover {
+    background-color: #da190b;
+}
+#addData {
+    background-color: #008CBA;
+    margin-top: 20px;
+}
+#addData:hover {
+    background-color: #007B9A;
+}
