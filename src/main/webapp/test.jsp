@@ -1,4 +1,4 @@
-<%@ page import="org.example.bankexam.QuestionDAO" %>
+<%@ page import="org.example.bankexam.QuestionDAO" %>girt
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="org.example.bankexam.QuestionDTO" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
