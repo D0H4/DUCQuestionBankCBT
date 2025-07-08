@@ -1,9 +1,8 @@
-- 적절한 한글 표현을 모르겠는 단어들만 영어로 써놨습니다. 양해 부탁드립니다.
-
 # Requirements
 - Eclipse
-- Tomcat 9.0
+- Tomcat 9.0 (IntelliJ IDEA Smart Tomcat 플러그인 권장)
 - MySQL
+- WEB-INF/lib 디렉토리에 commons-csv, mysql-connector-j
 
 # Install Guide for Eclipse
 - Github에서 pull 당겨와서 쓰지말고 프로젝트 파일 압축 해제해서 사용해주세요. lib 파일 없어서 오류 발생합니다.
@@ -89,5 +88,5 @@ CREATE TABLE optionTbl (
 
 ## Todo
 - [ ] 과목 별로 문제 불러오기
-- [ ] 어드민 페이지에서 csv 파일 업로드
-- [ ] 디자인 변경
+- [X] 어드민 페이지에서 csv 파일 업로드
+- [X] 디자인 변경
